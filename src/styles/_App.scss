@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  --font-1: "Chakra Petch", sans-serif;
+  --background-color: #B8DBD9;
+  --color-main: #586F7C;
+  --color-black: #000000;
+  --color-white: #F4F4F9;
+
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  background-color: var(--background-color);
+}
