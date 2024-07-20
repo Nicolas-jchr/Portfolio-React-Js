@@ -1,5 +1,5 @@
-export function Home() {
-
+export function NotFound() {
+    
 
     return (
         <>
