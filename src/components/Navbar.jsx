@@ -1,9 +1,10 @@
-export function Navbar() {
+function Navbar() {
     
-
     return (
         <>
-            <h1>hello</h1>
+            <h1>hello im Navbar</h1>
         </>
     )
 }
+
+export default Navbar;

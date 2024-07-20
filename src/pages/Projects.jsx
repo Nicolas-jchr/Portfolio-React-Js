@@ -1,4 +1,4 @@
-export function Projects() {
+function Projects() {
     
 
     return (
@@ -7,3 +7,5 @@ export function Projects() {
         </>
     )
 }
+
+export default Projects;
