@@ -1,12 +1,9 @@
-
+import Project1 from "../assets/projet1.svg"
 
 const infoProjects = [
     {
-    //   image: Meg,
-      name: "Mégane AUTHEMAYOU",
-      role: "Développeuse Web Fullstack",
-      github: "https://github.com/megmayou",
-      linkedin: "https://www.linkedin.com/in/m%C3%A9gane-authemayou/"
+      image: Project1,
+      titre: "Cookie Clicker",
     }
   ];
 
