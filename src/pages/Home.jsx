@@ -1,3 +1,5 @@
+import ProjectsHome from "../components/ProjectsHome";
+
 function Home() {
 
     return (
@@ -15,21 +17,13 @@ function Home() {
         </header>
         <main>
             <section>
-            <h2>
-                Mes projets réalisés
-            </h2>
-                <article>
-                    <h2>
-                        Skills
-                    </h2>
-                </article>
+                <ProjectsHome />
             </section>
             <section>
                 <h2>
                     
                 </h2>
             </section>
-
         </main>
         </>
     )
