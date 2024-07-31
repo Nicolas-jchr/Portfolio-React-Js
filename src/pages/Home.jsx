@@ -14,14 +14,22 @@ function Home() {
             </section>
         </header>
         <main>
+            <section>
             <h2>
                 Mes projets réalisés
             </h2>
-            <section>
                 <article>
-                    
+                    <h2>
+                        Skills
+                    </h2>
                 </article>
             </section>
+            <section>
+                <h2>
+                    
+                </h2>
+            </section>
+
         </main>
         </>
     )
