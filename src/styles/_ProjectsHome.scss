@@ -1,6 +1,6 @@
-.card {
+.card-home-projects {
     position: relative;
-    width: 300px; // Vous pouvez ajuster la largeur selon vos besoins
+    width: 300px;
     margin: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -26,7 +26,7 @@
       text-align: center;
     }
   
-    .overlay {
+    .overlay-home-projects {
       position: absolute;
       top: 0;
       left: 0;
@@ -41,7 +41,7 @@
       transition: opacity 0.3s;
     }
   
-    &:hover .overlay {
+    &:hover .overlay-home-projects {
       opacity: 1;
     }
   }

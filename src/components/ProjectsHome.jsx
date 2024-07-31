@@ -3,10 +3,10 @@ import infoProjects from "../datas/projects";
 
 const CardsProjects = ({ image, titre }) => {
   return (
-    <div className="card">
+    <div className="card-home-projects">
       <img src={image} alt={`Logo du projet ${titre}`} />
       <h3>{titre}</h3>
-      <div className="overlay">Cliquer pour voir le projet</div>
+      <div className="overlay-home-projects">Cliquer pour voir le projet</div>
     </div>
   );
 };
