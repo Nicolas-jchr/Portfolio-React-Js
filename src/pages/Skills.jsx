@@ -1,7 +1,7 @@
 function Skills() {
     return (
         <>
-            <h1>hellooo</h1>
+            <h1></h1>
         </>
     )
 }
