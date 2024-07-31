@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import LogoLinkedin from "../assets/linkedin.svg";
+import LogoGithub from "../assets/github.svg";
 
 function Navbar() {
     return (
@@ -21,23 +23,18 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/skill" activeClassName="active">
-                            Skills
-                        </NavLink>
-                    </li>
-                    <li>
                         <NavLink to="/about" activeClassName="active">
                             About
                         </NavLink>
                     </li>
                     <li>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="icon">
-                            <img src="path/to/github/icon.png" alt="GitHub" />
+                            <img src={LogoGithub} alt="GitHub" />
                         </a>
                     </li>
                     <li>
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="icon">
-                            <img src="path/to/linkedin/icon.png" alt="LinkedIn" />
+                            <img src={LogoLinkedin} alt="LinkedIn" />
                         </a>
                     </li>
                 </ul>

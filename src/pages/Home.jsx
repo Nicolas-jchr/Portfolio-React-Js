@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import ProjectsHome from "../components/ProjectsHome";
 import SkillsHome from "../components/SkillsHome";
 import Avatar from "../assets/nico.jpg"
+import LogoLinkedin from "../assets/linkedin.svg";
+import LogoGithub from "../assets/github.svg";
 
 function Home() {
 
@@ -15,8 +17,12 @@ function Home() {
             <h3>Actuellement à la recherche d'une alternance pour septembre ou novembre 2024</h3>
             <section>
                 Retrouvez moi ici :
-                <article>Logo github</article>
-                <article>Logo linkedin</article>
+                <article>
+                    <img src={LogoLinkedin} alt="Linkedin" />
+                </article>
+                <article>
+                <img src={LogoGithub} alt="Github" />
+                </article>
             </section>
         </header>
         <main>
@@ -25,9 +31,6 @@ function Home() {
             </section>
             <section>
                 <SkillsHome />
-            </section>
-            <section>
-                <CourseHome />
             </section>
         </main>
         <footer>
