@@ -1,4 +1,5 @@
 import ProjectsHome from "../components/ProjectsHome";
+import SkillsHome from "../components/SkillsHome";
 
 function Home() {
 
@@ -20,9 +21,7 @@ function Home() {
                 <ProjectsHome />
             </section>
             <section>
-                <h2>
-                    
-                </h2>
+                <SkillsHome />
             </section>
         </main>
         </>
