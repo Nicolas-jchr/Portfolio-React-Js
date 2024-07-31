@@ -2,11 +2,16 @@ function Home() {
 
     return (
         <>
-        <main>
+        <header>
             <h1>Nicolas JUCHEREAU</h1>
-            <h2>Développeur Web / Web mobile FULLSTACK</h2>
-            <h3>Je suis un jeune développeur web passioné en plein reconversion professionel</h3>
-        </main>
+            <h2>Développeur Web / Web mobile FULLSTACK junior</h2>
+            <h3>Actuellement à la recherche d'une alternance pour septembre ou novembre 2024</h3>
+            <section>
+                Retrouvez moi ici :
+                <article>Logo github</article>
+                <article>Logo linkedin</article>
+            </section>
+        </header>
         </>
     )
 }
