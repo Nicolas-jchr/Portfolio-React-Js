@@ -1,4 +1,5 @@
 import CourseHome from "../components/CourseHome";
+import Footer from "../components/Footer";
 import ProjectsHome from "../components/ProjectsHome";
 import SkillsHome from "../components/SkillsHome";
 
@@ -28,6 +29,9 @@ function Home() {
                 <CourseHome />
             </section>
         </main>
+        <footer>
+            <Footer />
+        </footer>
         </>
     )
 }
