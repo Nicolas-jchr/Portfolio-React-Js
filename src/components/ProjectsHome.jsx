@@ -1,4 +1,5 @@
 import infoProjects from "../datas/projects";
+import PropTypes from "prop-types";
 
 const CardsProjects = ({ image, titre }) => {
   return (
@@ -8,6 +9,11 @@ const CardsProjects = ({ image, titre }) => {
     </div>
   );
 };
+
+CardsProjects.propTypes = {
+    image: PropTypes.string.isRequired,
+    titre: PropTypes.string.isRequired,
+  };
 
 function ProjectsHome() {
   return (
