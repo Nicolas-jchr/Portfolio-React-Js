@@ -1,3 +1,4 @@
+import CourseHome from "../components/CourseHome";
 import ProjectsHome from "../components/ProjectsHome";
 import SkillsHome from "../components/SkillsHome";
 
@@ -22,6 +23,9 @@ function Home() {
             </section>
             <section>
                 <SkillsHome />
+            </section>
+            <section>
+                <CourseHome />
             </section>
         </main>
         </>
